@@ -1,18 +1,26 @@
-# app
+# 💱 Smart Currency Converter
 
-A new Flutter project.
+Smart Currency Converter is a simple and lightweight Flutter application that converts between multiple currencies (USD, EUR, LBP, and GBP) using fixed offline exchange rates. The app features a modern black-and-white minimal interface and stores the last three conversions without using any database or internet connection.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- Convert between USD, EUR, LBP, and GBP
+- Works fully offline (no API needed)
+- Clean Black & White interface
+- Shows last 3 conversions (in-memory only)
+- Single-screen app for quick usage
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ Technologies Used
+- **Flutter**
+- **Dart**
+- **Android Studio**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_app
+---
+
+## 📌 How It Works
+The app uses fixed exchange rates stored in the Dart code and performs direct conversion from one currency to another without needing network access.
+
+---
